@@ -1,0 +1,52 @@
+.content {
+  height: auto;
+  background-color: black;
+}
+
+.tool-icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 120px;
+  padding-top: 10px;
+}
+.skills-title {
+  margin-left: 120px;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 50px;
+
+  font-family: "Archivo Black";
+  font-weight: 400;
+  font-size: 40px;
+  font-style: normal;
+}
+.proyectos-destacados {
+  margin-top: 100px;
+}
+.tarjetas-proyectos {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0 120px 0 120px;
+}
+.tarjeta-cafeteria {
+  border: 2px solid blue;
+  width: 50%;
+  height: auto;
+}
+.titulo__tarjeta-cafeteria {
+  color: white;
+  font-family: "Archivo Black";
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.descripcion__tarjeta-cafeteria {
+  color: white;
+}
+.tarjeta-mi-proyecto {
+  border: 2px solid wheat;
+  width: 50%;
+  height: 200px;
+}
