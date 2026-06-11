@@ -1,0 +1,42 @@
+.footer {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 120px 100px 120px;
+}
+.titulo-footer {
+  color: white;
+  font-family: "Archivo Black";
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 40px;
+}
+.email-contact {
+  color: #6d6dff;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  text-decoration: none;
+
+  transition: opacity 0.3s ease;
+}
+.email-contact:hover {
+  opacity: 0.6;
+}
+
+.titulo-footer {
+  margin-top: 100px;
+}
+.social-media {
+  display: flex;
+  margin-top: 40px;
+  gap: 80px;
+}
+.social-media__icons {
+  transition: opacity 0.3s ease;
+}
+.social-media__icons:hover {
+  opacity: 0.6;
+}

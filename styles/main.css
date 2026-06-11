@@ -1,6 +1,6 @@
 .content {
   height: auto;
-  background-color: black;
+  margin-top: 60px;
 }
 
 .tool-icons {
@@ -38,6 +38,13 @@
   width: 50%;
   background-color: #1c1c1c;
 }
+.redireccion-tarjetas {
+  transition: opacity 0.3s ease;
+}
+.redireccion-tarjetas:hover {
+  opacity: 0.6;
+}
+
 .imagenes-tarjetas {
   position: relative;
 }
